@@ -446,5 +446,5 @@ async def on_voice_state_update(entity,before,after):
                 song = search_for_song_keyword(["สวัสดี"],sound_desc)
                 await play_sound(after,"on_voice_state_update",random.choice(song))
             
-#bot.run(token)
+bot.run(token)
         
